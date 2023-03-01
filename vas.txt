@@ -223,6 +223,4 @@ stage( Test'
 st age( Deploy 
  
  
-Jenkinsfile (ScriptedPipeline) node { stage('Build') { sh make '
-stage('Test') { sh 'make check' junit 'reports/ O
-if (currentBuild.currentResu1t 'SUCCESS') { stage('Deploy') { sh 'make publish'
+
